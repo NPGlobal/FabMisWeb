@@ -31,11 +31,13 @@ namespace FabMisWeb.Common.Extensions
             //Registering Repository
             services.AddTransient<IProductRepository, ProductRepository>();
             services.AddTransient<IMDDRepository, MDDRepository>();
+            services.AddTransient<IMenuRepository, MenuRepository>();
 
 
             //Registering Service
             services.AddTransient<IProductService, ProductService>();
             services.AddTransient<IMDDService, MDDService>();
+            services.AddTransient<IMenuService, MenuService>();
         }
 
         public static void ConfigureIISIntegration(this IServiceCollection services)
