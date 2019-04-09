@@ -1,6 +1,11 @@
 /FabMisWeb.API/obj
+/FabMisWeb.API/bin
 /FabMisWeb.Repository/obj
+/FabMisWeb.Repository/bin
 /FabMisWeb.Services/obj
+/FabMisWeb.Services/bin
 /FabMisWeb.Model/obj
+/FabMisWeb.Model/bin
 /FabMisWeb.Common/obj
+/FabMisWeb.Common/bin
 /.vs
